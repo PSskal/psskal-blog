@@ -2,8 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/posts": "pages/posts.js",
-  "/works": "pages/works.js",
   "/works/menkiki": "pages/works/menkiki.js",
-  "/404": "pages/404.js"
+  "/works": "pages/works.js",
+  "/posts": "pages/posts.js",
+  "/": "pages/index.js"
 }

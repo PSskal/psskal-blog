@@ -15,17 +15,15 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="Menkiki (麺利き)">
+  <Layout title="Netflix">
     <Container>
       <Title>
-        Menkiki (麺利き) <Badge>2015</Badge>
+        menkiki <Badge>2032</Badge>
       </Title>
       <P>
         Menkiki suggests ramen(Chinese noodle) shops based on a photo of ramen
         you want to eat. Why? Because you don&apos;t need to input Japanese
-        keywords to find restaurants, but just specify a ramen photo then it
-        will suggest great shops for you. It supports 900+ famous ramen shops in
-        Japan!
+        keyestamo haciendo alguna pruebas que nos podemos arerampot despues
       </P>
       <P>
         So, you can check a shop info as soon as you found a promising ramen
@@ -67,7 +65,7 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <Box align="center" my={6}>
+      {/* <Box align="center" my={6}>
         <Link
           className="link-appstore"
           href="https://itunes.apple.com/app/id1035645520?mt=8"
@@ -80,12 +78,12 @@ const Work = () => (
             alt="Download on App Store"
           />
         </Link>
-      </Box>
+      </Box> */}
 
-      <WorkImage src="/images/works/menkiki_eyecatch.png" alt="menkiki" />
+      {/* <WorkImage src="/images/works/menkiki_eyecatch.png" alt="menkiki" /> */}
       <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/works/menkiki_01.png" alt="menkiki" />
-        <WorkImage src="/images/works/menkiki_02.png" alt="menkiki" />
+        {/* <WorkImage src="/images/works/menkiki_01.png" alt="menkiki" /> */}
+        {/* <WorkImage src="/images/works/menkiki_02.png" alt="menkiki" /> */}
       </SimpleGrid>
     </Container>
   </Layout>

@@ -27,8 +27,8 @@ const Works = () => (
         </Section>
         <Section>
           <WorkGridItem
-            id="netflix_clone"
-            title="Netflix Case Study"
+            id="netflix"
+            title="Netflix"
             thumbnail={thumbNetflix}
           >
             Netflix Clone app use React, Tailwind
