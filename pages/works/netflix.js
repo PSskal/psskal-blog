@@ -9,20 +9,20 @@ import {
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title,Meta } from '../../components/work'
+import { Title, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
   <Layout title="Menkiki">
     <Container>
       <Title>
-        Netflix  <Badge>2015</Badge>
+        Netflix <Badge>2015</Badge>
       </Title>
       <P>
-        de loq eu nos perscatamos al ultimoBecause you don&apos;t need to input Japanese
-        keywords to find restaurants, but just specify a ramen photo then it
-        will suggest great shops for you. It supports 900+ famous ramen shops in
-        Japan!
+        de loq eu nos perscatamos al ultimoBecause you don&apos;t need to input
+        Japanese keywords to find restaurants, but just specify a ramen photo
+        then it will suggest great shops for you. It supports 900+ famous ramen
+        shops in Japan!
       </P>
       <P>
         So, you can check a shop info as soon as you found a promising ramen

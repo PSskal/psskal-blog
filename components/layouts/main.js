@@ -20,7 +20,7 @@ const Main = ({ children, router }) => {
         <meta name="author" content="Psskal" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <title>PSskal's - Homepage</title>
+        <title>PSskal - Homepage</title>
       </Head>
 
       <NavBar path={router.asPath} />

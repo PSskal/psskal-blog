@@ -8,7 +8,6 @@ import thumbTodoApp from '../public/images/works/todoapp.png'
 import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
 import thumbPlatformLearn from '../public/images/works/learning.png'
 
-
 const Works = () => (
   <Layout title="Works">
     <Container>
@@ -24,15 +23,11 @@ const Works = () => (
         </Section>
         <Section delay={0.1}>
           <WorkGridItem id="menkiki" thumbnail={thumbMargelo} title="Margelo">
-          A website of the elite app development and contracting agency
+            A website of the elite app development and contracting agency
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem
-            id="netflix"
-            title="Netflix"
-            thumbnail={thumbNetflix}
-          >
+          <WorkGridItem id="netflix" title="Netflix" thumbnail={thumbNetflix}>
             Netflix Clone app use React, Tailwind
           </WorkGridItem>
         </Section>
@@ -46,7 +41,6 @@ const Works = () => (
             an application for the tasks that will be executed in the machine
           </WorkGridItem>
         </Section>
-        
       </SimpleGrid>
 
       {/* <Section delay={0.2}>
@@ -78,7 +72,7 @@ const Works = () => (
             A VR Creative tools for fashion brands
           </WorkGridItem>
         </Section> */}
-      {/* </SimpleGrid> */} 
+      {/* </SimpleGrid> */}
 
       {/* <Section delay={0.4}>
         <Divider my={6} />

@@ -10,7 +10,7 @@ import {
   ListItem,
   useColorModeValue,
   chakra,
-  Flex,
+  Flex
 } from '@chakra-ui/react'
 import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
@@ -18,7 +18,12 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoFacebook } from 'react-icons/io5'
+import {
+  IoLogoTwitter,
+  IoLogoInstagram,
+  IoLogoGithub,
+  IoLogoFacebook
+} from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbPlatformLearn from '../public/images/works/learning.png'
 import Image from 'next/image'
@@ -82,7 +87,6 @@ const Home = () => (
         <Paragraph>
           PSskal is a freelance and a full-stack developer based in Lima with a
           passion for building digital services/stuff he wants
-         
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -108,7 +112,7 @@ const Home = () => (
 
         <BioSection>
           <BioYear>2020</BioYear>
-          Studied Mechatronic Engineer at UPC Monterrico! Perú 
+          Studied Mechatronic Engineer at UPC Monterrico! Perú
         </BioSection>
         <BioSection>
           <BioYear> 2021 to present</BioYear>
@@ -118,7 +122,7 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          I ♥ 
+          I ♥
         </Heading>
         <Paragraph>
           Art, Music, Robotics, Playing Videogames and Learn everyday
@@ -129,56 +133,55 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           On the web
         </Heading>
-        
+
         <List>
-        <Flex>
-          <ListItem>
-            <Link href="https://github.com/psskal" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoGithub />}
-              >
-                @PSskal
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://twitter.com/psskal" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                @PSskal
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://instagram.com/_psskal" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoInstagram />}
-              >
-                @_psskal
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://facebook.com/PSskal" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoFacebook/>}
-              >
-                @PSskal
-              </Button>
-            </Link>
-          </ListItem>
+          <Flex>
+            <ListItem>
+              <Link href="https://github.com/psskal" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<IoLogoGithub />}
+                >
+                  @PSskal
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://twitter.com/psskal" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<IoLogoTwitter />}
+                >
+                  @PSskal
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://instagram.com/_psskal" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<IoLogoInstagram />}
+                >
+                  @_psskal
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://facebook.com/PSskal" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<IoLogoFacebook />}
+                >
+                  @PSskal
+                </Button>
+              </Link>
+            </ListItem>
           </Flex>
         </List>
-        
 
         <SimpleGrid columns={[1, 2, 2]} gap={6} pt={5}>
           <GridItem
