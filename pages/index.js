@@ -18,7 +18,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoFacebook } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbPlatformLearn from '../public/images/works/learning.png'
 import Image from 'next/image'
@@ -35,7 +35,7 @@ const Home = () => (
         mb={6}
         p={3}
         textAlign="center"
-        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+        bg={useColorModeValue('whiteAlpha.100', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
         Hello, I&apos;m a developer based in Perú!
@@ -118,10 +118,10 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          I ♥
+          I ♥ 
         </Heading>
         <Paragraph>
-          Art, Music, Soccer, Playing Videogames and Learn everyday
+          Art, Music, Robotics, Playing Videogames and Learn everyday
         </Paragraph>
       </Section>
 
@@ -165,6 +165,17 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
+          <ListItem>
+            <Link href="https://facebook.com/PSskal" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoFacebook/>}
+              >
+                @PSskal
+              </Button>
+            </Link>
+          </ListItem>
           </Flex>
         </List>
         
@@ -178,7 +189,7 @@ const Home = () => (
             My YouTube channel :)
           </GridItem>
           <GridItem
-            href="https://www.inkdrop.app/"
+            href="https://github.com/psskal/"
             title="Csmer"
             thumbnail={thumbPlatformLearn}
           >
@@ -189,7 +200,7 @@ const Home = () => (
         <Box align="center" my={4}>
           <Button
             as={NextLink}
-            href="https://www.devas.life/"
+            href="https://mail.google.com/mail/"
             scroll={false}
             leftIcon={<EmailIcon />}
             colorScheme="teal"

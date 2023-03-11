@@ -21,7 +21,7 @@ import { IoLogoGithub } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
-  const inactiveColor = useColorModeValue('gray.800', 'whiteAlpha.900')
+  const inactiveColor = useColorModeValue('gray.900', 'whiteAlpha.900')
   return (
     <Link
       as={NextLink}
@@ -86,7 +86,7 @@ const Navbar = props => {
 
           <LinkItem
             target="_blank"
-            href="https://github.com/Ps/craftzdog-homepage"
+            href="https://github.com/PSskal/"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -119,12 +119,9 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/posts">
                   Posts
                 </MenuItem>
-                <MenuItem as={MenuLink} href="https://uses.craftz.dog/">
-                  Uses
-                </MenuItem>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
+                  href="https://github.com/psskal"
                 >
                   View Source
                 </MenuItem>

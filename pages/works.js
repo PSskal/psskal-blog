@@ -1,14 +1,12 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbNetflix from '../public/images/works/netflix.png'
-
 import thumbTodoApp from '../public/images/works/todoapp.png'
-
 import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
-
+import thumbPlatformLearn from '../public/images/works/learning.png'
 
 
 const Works = () => (
@@ -20,9 +18,13 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbNetflix}>
-            A Markdown note-taking app with 100+ plugins, cross-platform and
-            encrypted data sync support
+          <WorkGridItem id="csmer" title="Csmer" thumbnail={thumbPlatformLearn}>
+            a courses plataform for studentes who finished the high school
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem id="menkiki" thumbnail={thumbMargelo} title="Margelo">
+          A website of the elite app development and contracting agency
           </WorkGridItem>
         </Section>
         <Section>
@@ -44,23 +46,18 @@ const Works = () => (
             an application for the tasks that will be executed in the machine
           </WorkGridItem>
         </Section>
-        <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbNetflix} title="Menkiki">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
-          </WorkGridItem>
-        </Section>
+        
       </SimpleGrid>
 
-      <Section delay={0.2}>
+      {/* <Section delay={0.2}>
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
           Collaborations
         </Heading>
-      </Section>
+      </Section> */}
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      {/* <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="Margelo">
             A website of the elite app development and contracting agency based
@@ -80,8 +77,8 @@ const Works = () => (
           <WorkGridItem id="styly" thumbnail={thumbNetflix} title="Styly">
             A VR Creative tools for fashion brands
           </WorkGridItem>
-        </Section>
-      </SimpleGrid>
+        </Section> */}
+      {/* </SimpleGrid> */} 
 
       {/* <Section delay={0.4}>
         <Divider my={6} />
