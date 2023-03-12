@@ -135,7 +135,11 @@ const Home = () => (
         </Heading>
 
         <List>
-          <Flex>
+          <Flex
+            flexWrap="wrap"
+            justifyContent={{ base: "center", md: "space-between" }}
+            flexDirection={{ base: "column", md: "row" }}
+          >
             <ListItem>
               <Link href="https://github.com/psskal" target="_blank">
                 <Button
