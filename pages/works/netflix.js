@@ -13,7 +13,7 @@ import { Title, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="Menkiki">
+  <Layout title="Netflix">
     <Container>
       <Title>
         Netflix <Badge>2015</Badge>

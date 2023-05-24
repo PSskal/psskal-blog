@@ -18,11 +18,11 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="csmer" title="Csmer" thumbnail={thumbPlatformLearn}>
-            a courses plataform for studentes who finished the high school
+            A courses plataform for studentes who finished the high school
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMargelo} title="Margelo">
+          <WorkGridItem id="sevenSegment" thumbnail={thumbMargelo} title="SevenSegment">
             A website of the elite app development and contracting agency
           </WorkGridItem>
         </Section>
