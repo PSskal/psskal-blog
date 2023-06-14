@@ -1,12 +1,9 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
+import { PostGridItem } from '../components/grid-item'
 
-import thumbPortfolio from '../public/images/contents/youtube-how-to-build-portfolio.jpg'
-import thumbHowToUseInkdrop from '../public/images/contents/youtube-how-to-use-inkdrop.jpg'
-import thumbFishWorkflow from '../public/images/contents/youtube-fish-workflow.jpg'
-import thumbMyDeskSetup from '../public/images/contents/youtube-my-desk-setup.jpg'
+import thumbPlatformLearn from '../public/images/works/learning.png'
 
 const Posts = () => (
   <Layout title="Posts">
@@ -17,26 +14,11 @@ const Posts = () => (
 
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            title="How to build a portfolio website"
-            thumbnail={thumbPortfolio}
-            href="https://www.youtube.com/"
-          />
-          <GridItem
-            title="how to build a Csmer plataform website"
-            thumbnail={thumbHowToUseInkdrop}
-            href="https://www.youtube.com/"
-          />
-          <GridItem
-            title="!i write more articles"
-            thumbnail={thumbFishWorkflow}
-            href="https://www.youtube.com/"
-          />
-          <GridItem
-            title="My desk setup (Late 2020)"
-            thumbnail={thumbMyDeskSetup}
-            href="https://www.youtube.com/"
-          />
+          <Section>
+            <PostGridItem id="csmer" title="Csmer" thumbnail={thumbPlatformLearn}>
+              esto es una prueba si funciona bacan y si no tambien
+            </PostGridItem>
+          </Section>
         </SimpleGrid>
       </Section>
 
