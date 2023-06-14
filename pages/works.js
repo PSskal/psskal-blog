@@ -23,7 +23,7 @@ const Works = () => (
         </Section>
         <Section delay={0.1}>
           <WorkGridItem id="sevenSegment" thumbnail={thumbMargelo} title="SevenSegment">
-            A website of the elite app development and contracting agency
+            7 segmentos display
           </WorkGridItem>
         </Section>
         <Section>
