@@ -5,8 +5,8 @@ import { WorkGridItem } from '../components/grid-item'
 
 import thumbNetflix from '../public/images/works/netflix.png'
 import thumbTodoApp from '../public/images/works/todoapp.png'
-import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
 import thumbPlatformLearn from '../public/images/works/learning.png'
+import thumbdisplay7Segment from '../public/images/works/display7Segment.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -22,7 +22,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="sevenSegment" thumbnail={thumbMargelo} title="SevenSegment">
+          <WorkGridItem id="sevenSegment" thumbnail={thumbdisplay7Segment} title="SevenSegment">
             7 segmentos display
           </WorkGridItem>
         </Section>

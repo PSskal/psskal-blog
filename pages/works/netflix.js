@@ -1,15 +1,12 @@
 import {
   Container,
   Badge,
-  Link,
-  List,
   ListItem,
   SimpleGrid,
   UnorderedList
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, Meta } from '../../components/work'
+import { Title } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
@@ -34,7 +31,7 @@ const Work = () => (
         <ListItem>Open in Tabelog/Foursquare</ListItem>
       </UnorderedList>
 
-      <List ml={4} my={4}>
+      {/* <List ml={4} my={4}>
         <ListItem>
           <Meta>Platform</Meta>
           <span>iOS</span>
@@ -62,7 +59,7 @@ const Work = () => (
             github.com/craftzdog/caffe-ios-sample <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
-      </List>
+      </List> */}
 
       {/* <Box align="center" my={6}>
         <Link

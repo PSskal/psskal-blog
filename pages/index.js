@@ -51,7 +51,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Richard Pascual
           </Heading>
-          <p> ( Developer / Designer )</p>
+          <p> ( Programador - Diseñador - Ingeniero Mecatronico en proceso  )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -105,10 +105,6 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Bio
         </Heading>
-        <BioSection>
-          <BioYear>2001</BioYear>
-          Born in Cusco, Perú.
-        </BioSection>
 
         <BioSection>
           <BioYear>2020</BioYear>
