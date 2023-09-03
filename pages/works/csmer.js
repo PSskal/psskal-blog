@@ -16,65 +16,40 @@ const Work = () => (
   <Layout title="Cmsr">
     <Container>
       <Title>
-        Csmr <Badge>Csmr</Badge>
+      Plataforma de Aprendizaje en Línea <Badge>Csmr</Badge>
       </Title>
       <P>
-        estamos de la ostia que paso que no se me occure nada de anda, entonces no sque ue hcer
+      Nuestra Plataforma de Aprendizaje en Línea es un espacio educativo virtual diseñado para brindar a estudiantes de todas las edades y niveles de habilidad acceso a una amplia gama de cursos y recursos de aprendizaje. Con un enfoque en la educación de alta calidad y la accesibilidad, nuestra plataforma ofrece oportunidades de desarrollo personal y profesional en línea.
       </P>
       <P>
-        So, you can check a shop info as soon as you found a promising ramen
-        shop in a food magazine. Let&apos;s go out and have a delicious ramen!
+        Caracteristicas descatacadas:
       </P>
       <UnorderedList my={4}>
-        <ListItem>Ramen shop recommendation based on photo</ListItem>
-        <ListItem>Show shops near your current location</ListItem>
-        <ListItem>Open in Tabelog/Foursquare</ListItem>
+        <ListItem>Catálogo de curso diversificados</ListItem>
+        <ListItem>Lecciones interactivas</ListItem>
+        <ListItem>Aprendizaje a tu propio ritmo</ListItem>
+        <ListItem>Comunidad de Aprendizaje</ListItem>
+        <ListItem>Seguimiento del Progreso</ListItem>
+        <ListItem>Recurso de apoyo</ListItem>
+        <ListItem>Soporte técnico</ListItem>
       </UnorderedList>
 
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Platform</Meta>
-          <span>iOS</span>
+          <Meta>Platforma</Meta>
+          <span>web</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Objective-C++, Swift, BLVC CaffeNet Model</span>
-        </ListItem>
-        <ListItem>
-          <Meta>Presentation</Meta>
-          <Link href="https://speakerdeck.com/craftzdog/the-fun-deep-learning">
-            The fun Deep Learning <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
-        <ListItem>
-          <Meta>Presentation</Meta>
-          <Link href="https://speakerdeck.com/craftzdog/caffedeoshou-qing-ben-ge-deipuraninguiosapuri">
-            Caffeでお手軽本格ディープラーニングアプリ @potatotips{' '}
-            <ExternalLinkIcon mx="2px" />
-          </Link>
+          <span>reactjs, django, tailwind, ethereum, sonala, </span>
         </ListItem>
         <ListItem>
           <Meta>Source</Meta>
-          <Link href="https://github.com/craftzdog/caffe-ios-sample">
-            github.com/craftzdog/caffe-ios-sample <ExternalLinkIcon mx="2px" />
+          <Link href="https://github.com/psskal">
+            github.com/Cmsr <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
       </List>
-
-      {/* <Box align="center" my={6}>
-        <Link
-          className="link-appstore"
-          href="https://itunes.apple.com/app/id1035645520?mt=8"
-          target="_blank"
-        >
-          <Image
-            maxW={240}
-            src="/images/works/appstore.png"
-            className="image-appstore"
-            alt="Download on App Store"
-          />
-        </Link>
-      </Box> */}
 
       {/* <WorkImage src="/images/works/menkiki_eyecatch.png" alt="menkiki" /> */}
       <SimpleGrid columns={2} gap={2}>

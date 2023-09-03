@@ -3,20 +3,20 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { PostGridItem } from '../components/grid-item'
 
-import thumbPlatformLearn from '../public/images/works/learning.png'
+import thumbPost from '../public/images/posts/post_01.png'
 
 const Posts = () => (
   <Layout title="Posts">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Popular Posts
+        Blogs
       </Heading>
 
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <Section>
-            <PostGridItem id="csmer" title="Csmer" thumbnail={thumbPlatformLearn}>
-              esto es una prueba si funciona bacan y si no tambien
+            <PostGridItem id="csmer" title="Desarrollo Software" thumbnail={thumbPost}>
+              La importancia del desarrolo de Software en la actualidad
             </PostGridItem>
           </Section>
         </SimpleGrid>
