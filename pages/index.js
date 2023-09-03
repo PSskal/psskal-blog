@@ -14,7 +14,6 @@ import {
 } from '@chakra-ui/react'
 import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
-import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
@@ -43,7 +42,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.100', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m a developer based in Perú!
+        ¡Hola! Soy Richard Pascual, un apasionado desarrollador
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -85,8 +84,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          PSskal is a freelance and a full-stack developer based in Lima with a
-          passion for building digital services/stuff he wants
+        Apasionado por la creación y la tecnología, transformo ideas en código y diseño soluciones atractivas. ¡Bienvenido a mi espacio en la web, donde podrás explorar mi trabajo y unirte a mi emocionante viaje de creación y aprendizaje!
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -96,25 +94,12 @@ const Home = () => (
             rightIcon={<ChevronRightIcon />}
             colorScheme="teal"
           >
-            My portfolio
+            Mi Portafolio
           </Button>
         </Box>
+        
       </Section>
 
-      <Section delay={0.2}>
-        <Heading as="h3" variant="section-title">
-          Bio
-        </Heading>
-
-        <BioSection>
-          <BioYear>2020</BioYear>
-          Studied Mechatronic Engineer at UPC Monterrico! Perú
-        </BioSection>
-        <BioSection>
-          <BioYear> 2021 to present</BioYear>
-          Working as a freelancer and in my Csmer Learning Plataform! Perú
-        </BioSection>
-      </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
@@ -208,7 +193,7 @@ const Home = () => (
             leftIcon={<EmailIcon />}
             colorScheme="teal"
           >
-            Contact me
+            Contactame
           </Button>
         </Box>
       </Section>
