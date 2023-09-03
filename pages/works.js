@@ -27,18 +27,19 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem id="netflix" title="Netflix" thumbnail={thumbNetflix}>
-            Netflix Clone app use React, Tailwind
-          </WorkGridItem>
-        </Section>
-
-        <Section delay={0.1}>
-          <WorkGridItem
+        <WorkGridItem
             id="todoapp"
             title="The TodoAPP"
             thumbnail={thumbTodoApp}
           >
             an application for the tasks that will be executed in the machine
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.1}>
+          
+          <WorkGridItem id="netflix" title="Netflix" thumbnail={thumbNetflix}>
+            Netflix Clone app use React, Tailwind
           </WorkGridItem>
         </Section>
       </SimpleGrid>

@@ -3,8 +3,7 @@ import {
     Badge,
     Link,
     List,
-    ListItem,
-    AspectRatio
+    ListItem
   } from '@chakra-ui/react'
   import Layout from '../../components/layouts/article'
   import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -22,46 +21,35 @@ import {
         </P>
   
   
-        <List ml={4} my={4}>
+        <List ml={5} my={8}>
           <ListItem>
             <Meta>Website</Meta>
             <span>
-              <Link href="https://stirring-paprenjak-cd3411.netlify.app/" target="_blank">
-                https://Netflix.io/ <ExternalLinkIcon mx="2px" />
+              <Link href="https://eclectic-faun-a6de10.netlify.app/" target="_blank">
+                https://Todoapp.io/ <ExternalLinkIcon mx="2px" />
               </Link>
             </span>
           </ListItem>
           <ListItem>
             <Meta>Github</Meta>
             <span>
-              <Link href="https://github.com/PSskal/CLON_NETFLIX" target="_blank">
-                https://Github/netflix <ExternalLinkIcon mx="2px" />
+              <Link href="https://github.com/PSskal/todoapp_lr" target="_blank">
+                https://Github/todoapp <ExternalLinkIcon mx="2px" />
               </Link>
             </span>
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
             <span>
-              Vanilla.Js / HTML / CSS /
+              Reacts.js / Chart.js / Tailwind /
             </span>
           </ListItem>
         </List>
   
-        <WorkImage src="/images/works/margelo_eyecatch.png" alt="Website" />
   
-        <AspectRatio maxW="640px" ratio={1.7} my={4}>
-          <iframe
-            src="https://www.youtube.com/embed/GznmPACXBlY"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-        </AspectRatio>
-  
-        <WorkImage src="/images/works/margelo_01.png" alt="Margelo" />
-        <WorkImage src="/images/works/margelo_02.png" alt="Margelo" />
-        <WorkImage src="/images/works/margelo_03.png" alt="Margelo" />
+        <WorkImage src="/images/works/todoapp_03.png" alt="Todoapp" />
+        <WorkImage src="/images/works/todoapp_01.png" alt="Todoapp" />
+        <WorkImage src="/images/works/todoapp_02.png" alt="Todoapp" />
       </Container>
     </Layout>
   )
