@@ -34,7 +34,7 @@ const Works = () => (
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="fourpainters"
+            id="todoapp"
             title="The TodoAPP"
             thumbnail={thumbTodoApp}
           >
