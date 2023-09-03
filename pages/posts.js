@@ -15,7 +15,7 @@ const Posts = () => (
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <Section>
-            <PostGridItem id="csmer" title="Desarrollo Software" thumbnail={thumbPost}>
+            <PostGridItem id="desarrolloSoftware" title="Desarrollo Software" thumbnail={thumbPost}>
               La importancia del desarrolo de Software en la actualidad
             </PostGridItem>
           </Section>
