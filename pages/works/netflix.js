@@ -3,8 +3,7 @@ import {
   Badge,
   Link,
   List,
-  ListItem,
-  AspectRatio
+  ListItem
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -23,7 +22,7 @@ Este proyecto es una recreación fiel y funcional de la popular interfaz de usua
       </P>
 
 
-      <List ml={4} my={4}>
+      <List ml={5} my={8}>
         <ListItem>
           <Meta>Website</Meta>
           <span>
@@ -43,26 +42,14 @@ Este proyecto es una recreación fiel y funcional de la popular interfaz de usua
         <ListItem>
           <Meta>Stack</Meta>
           <span>
-            Vanilla.Js / HTML / CSS /
+            Vanilla.Js / HTML / CSS / Tailwind /
           </span>
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/margelo_eyecatch.png" alt="Website" />
-
-      <AspectRatio maxW="640px" ratio={1.7} my={4}>
-        <iframe
-          src="https://www.youtube.com/embed/GznmPACXBlY"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </AspectRatio>
-
-      <WorkImage src="/images/works/margelo_01.png" alt="Margelo" />
-      <WorkImage src="/images/works/margelo_02.png" alt="Margelo" />
-      <WorkImage src="/images/works/margelo_03.png" alt="Margelo" />
+      <WorkImage src="/images/works/netflix_01.png" alt="Netflix" />
+      <WorkImage src="/images/works/netflix_02.png" alt="Netflix" />
+      <WorkImage src="/images/works/netflix_03.png" alt="Netflix" />
     </Container>
   </Layout>
 )
