@@ -4,7 +4,7 @@ import Section from '../components/section'
 import { PostGridItem } from '../components/grid-item'
 
 import thumbPost from '../public/images/posts/post_01.png'
-
+import thumbPost2 from '../public/images/posts/post_02.png'
 const Posts = () => (
   <Layout title="Posts">
     <Container>
@@ -17,6 +17,11 @@ const Posts = () => (
           <Section>
             <PostGridItem id="desarrolloSoftware" title="Desarrollo Software" thumbnail={thumbPost}>
               La importancia del desarrolo de Software en la actualidad
+            </PostGridItem>
+          </Section>
+          <Section>
+            <PostGridItem id="miAmor" title="Para ti" thumbnail={thumbPost2}>
+              Una carta para mi amor
             </PostGridItem>
           </Section>
         </SimpleGrid>
